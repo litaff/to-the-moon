@@ -2,6 +2,10 @@
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToTheMoon", "ToTheMoon/ToTheMoon.csproj", "{BD1E96C4-6396-43DA-80E6-B136E11240F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToTheMoon.Core", "Core/src/ToTheMoon.Core.csproj", "{2A5C600A-74D2-429C-8C1E-DC2E8376ABB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToTheMoon.Core.Tests", "Core/tests/ToTheMoon.Core.Tests.csproj", "{86F5D788-105E-44FC-8C3F-CBD5F78259F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 	Debug|Any CPU = Debug|Any CPU
@@ -15,5 +19,17 @@ Global
 		{BD1E96C4-6396-43DA-80E6-B136E11240F0}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
 		{BD1E96C4-6396-43DA-80E6-B136E11240F0}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
 		{BD1E96C4-6396-43DA-80E6-B136E11240F0}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{2A5C600A-74D2-429C-8C1E-DC2E8376ABB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5C600A-74D2-429C-8C1E-DC2E8376ABB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5C600A-74D2-429C-8C1E-DC2E8376ABB5}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5C600A-74D2-429C-8C1E-DC2E8376ABB5}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5C600A-74D2-429C-8C1E-DC2E8376ABB5}.ExportRelease|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5C600A-74D2-429C-8C1E-DC2E8376ABB5}.ExportRelease|Any CPU.Build.0 = Debug|Any CPU
+		{86F5D788-105E-44FC-8C3F-CBD5F78259F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F5D788-105E-44FC-8C3F-CBD5F78259F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F5D788-105E-44FC-8C3F-CBD5F78259F0}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F5D788-105E-44FC-8C3F-CBD5F78259F0}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
+		{86F5D788-105E-44FC-8C3F-CBD5F78259F0}.ExportRelease|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F5D788-105E-44FC-8C3F-CBD5F78259F0}.ExportRelease|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -4,6 +4,9 @@
     <EnableDynamicLoading>true</EnableDynamicLoading>
     <RootNamespace>ToTheMoon</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\src\ToTheMoon.Core.csproj" />
+  </ItemGroup>
 
   <!-- This forces a rebuild by deleting files which allow incremental builds. This might increase build times,
   but ensures that changes in different projects will always apply to this core project. -->

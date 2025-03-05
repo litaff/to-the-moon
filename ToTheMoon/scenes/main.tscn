@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://c00o2xtt8fu0y"]
+
+[ext_resource type="Script" uid="uid://dg4r5qvqiouxh" path="res://scripts/PlayerPosition.cs" id="2_sugp2"]
+[ext_resource type="Script" uid="uid://bhoyjbpx7nycf" path="res://scripts/ProjectionCamera.cs" id="3_jyhfs"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_sugp2"]
+size = Vector3(1, 1, 2)
+
+[node name="Main" type="Node"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." node_paths=PackedStringArray("camera")]
+mesh = SubResource("BoxMesh_sugp2")
+script = ExtResource("2_sugp2")
+speed = 10.0
+camera = NodePath("../Camera3D")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-1, 8.74228e-08, 3.82137e-15, 0, -4.37114e-08, 1, 8.74228e-08, 1, 4.37114e-08, 0, 10, 0)
+size = 8.0
+script = ExtResource("3_jyhfs")
